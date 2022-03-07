@@ -1,10 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Домашнее задание (урок 1)</title>
 </head>
-<body>
-
+<body bgcolor="#c0c0c0">
+<h1 style=color:#ffffff;>Александр</h1>
+<div style=color:#002cbe;><span>25 лет,</span>
+    <i>город Москва</i></div>
+<div style=color:#be0000;>Я инженер, женат, имею двоих детей</div>
+<hr>
+    <form action="">
+        <h3>Форма обратной связи</h3>
+        <div><input type="text">
+            <span>Ваше имя<sup>*</sup></span></div>
+        <div><input type="text">
+            <span>Электронная почта<sup>*</sup></span></div>
+        <div><input type="text" placeholder="+7(000)000-00-00">
+            <span>Мобильный телефон<sup>*</sup></span></div>
+        <p style='color:#be0000; font-size: 10px'>* поля обязательные к заполнению</p>
+        <div>Как с Вами связаться:</div>
+        <span>по email</span>
+        <input type="checkbox">
+        <span>по телефону</span>
+        <input type="checkbox">
+        <p>Тема сообщения:
+            <select>
+            <option value="">--Выберите тему--</option>
+            <option value="">Просьба</option>
+            <option value="">Жалоба</option>
+            <option value="">Предложение</option>
+        </select></p>
+        <div>Текст сообщения:</div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>Хотите получать рекламные предложения:<span> да</span><input type="radio" name="dot1" checked>
+            <span>нет</span><input type="radio" name="dot1"></div>
+        <p><input type="submit" value="отправить"></p>
+    </form>
 </body>
 </html>
