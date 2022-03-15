@@ -1,0 +1,40 @@
+body, input {
+    font-family: Arial;
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+
+a{
+    color: darkseagreen;
+}
+
+nav a{
+    color: khaki;
+}
+
+input {
+    border: 1px solid #ffffff;
+}
+
+#t{
+    border: 1px solid #ffffff;
+    background: black;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.button1:hover{
+    background: darkseagreen;
+    transition: .4s;
+}
+
+.button1:active{
+    color: black;
+    background: khaki;
+}
+
+fotter div{
+text-align: center;
+}
