@@ -1,0 +1,12 @@
+ol li{
+    font-family: 'AmaticSC-Bold', cursive;
+    font-size: 35px;
+    color: red;
+}
+
+ul li{
+    font-family: 'AmaticSC-Regular', cursive;
+    font-size: 30px;
+    list-style: "- ";
+    color: navy;
+}

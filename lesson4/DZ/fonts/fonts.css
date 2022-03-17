@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "AmaticSC-Bold";
+    src: url("./Amatic_SC/AmaticSC-Bold.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url("./Amatic_SC/AmaticSC-Regular.ttf") format("woff");
+}
