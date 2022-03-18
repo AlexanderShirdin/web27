@@ -8,33 +8,34 @@
     <link rel="stylesheet" href="./style.css">
     <title>Login page</title>
     <link rel="stylesheet" href="./src/fonts/fonts.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-<header class="menu1">
-    <div class="title">Система управления студентами и их успеваемостью</div>
-</header>
-<main>
-    <section>
-        <form class="enter">
-                <div class="title2">Вход в систему:</div>
-                <p>
-                <div class="block1">Логин:</div>
-                <input type="text" class="text">
-                </p>
-                <p>
-                <div class="block1">Пароль:</div>
-                <input type="text" class="text">
-                </p>
-                <p>
-                    <input class="button_enter" type="submit" value="Войти">
-                </p>
+<div id="container">
+    <header>
+        <nav>
+            <h1 class="title">Система управления студентами и их успеваемостью</h1>
+            <a href="./index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section>
+            <h2 class="title_log">Вход в систему:</h2>
+            <div class="line">
+                <div>Логин:</div>
+                <input type="text" class="input_text">
             </div>
-        </form>
-    </section>
-</main>
-<fotter>
-    <div>2022 &copy;</div>
-</fotter>
+            <div class="line">
+                <div>Пароль:</div>
+                <input type="text" class="input_text">
+            </div>
+            <input class="button_enter" type="submit" value="Войти">
+        </section>
+    </main>
+    <fotter>
+        <div>2022 &copy;</div>
+    </fotter>
+</div>
 </body>
 </html>
