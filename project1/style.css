@@ -17,21 +17,14 @@ a:hover {
 
 body {
     background: #eeeeee;
+    font-family: 'comic', cursive;
+    color: #000000;
+    font-size: 16px;
 }
 
 #container {
     width: 1200px;
-    color: #000000;
     text-align: center;
-    font-family: 'comic', cursive;
-    font-size: 16px;
-}
-
-header nav {
-    width: 800px;
-    margin-left: 225px;
-    display: flex;
-    padding: 10px 0;
 }
 
 .title {
@@ -41,21 +34,28 @@ header nav {
     font-weight: normal;
     background: #ffffff;
     border: 1.5px solid #000;
-    margin-right: 10px;
+    margin: 10px auto;
+}
+
+.head {
+    width: 800px;
+    margin-left: 225px;
+    display: flex;
 }
 
 header nav a {
     width: 40px;
-    margin: 20px 0 0 0;
+    margin: 30px 0 10px 10px;
 }
 
 #content {
     width: 1200px;
-    height: 600px;
+    height: 80vh;
     padding-top: 60px;
+    background: darkslategrey;
 }
 
-section {
+.form-log {
     width: 250px;
     border: 1.5px solid #959595;
 }
@@ -68,7 +68,6 @@ section {
     background: #cdcdcd;
     border: 1.5px none #959595;
     border-bottom-style: solid;
-
 }
 
 .line {
@@ -98,98 +97,73 @@ section {
     margin-bottom: 20px;
 }
 
-
-
-
-
-
-
-.title3 {
-    width: 800px;
-    height: 35px;
-    font-size: 23px;
-    font-weight: normal;
-    text-align: center;
-    line-height: 32px;
-    background: #ffffff;
-    border: 1.5px solid #000;
-    display: inline-block;
+.menu_title {
+    width: 750px;
+    display: flex;
 }
 
+.menu_title a {
+    width: 120px;
+    font-size: 16px;
+}
 
-.bl1 {
-    font-family: 'micross', sans-serif;
-    font-weight: bold;
-    font-size: 19px;
-    display: inline-block;
-    width: 264px;
+.push {
+    margin-right: 195px;
     text-align: left;
 }
 
-.bl2 {
-    font-family: 'micross', sans-serif;
-    font-weight: bold;
-    font-size: 19px;
-    display: inline-block;
-    width: 264px;
-    padding: 80px 0px 300px 0px;
-}
-
-.bl3 {
-    font-family: 'micross', sans-serif;;
-    font-weight: bold;
-    font-size: 19px;
-    display: inline-block;
-    width: 264px;
+.push2 {
+    margin-left: 195px;
     text-align: right;
 }
 
-.block3 {
+.menu_student {
+    width: 1200px;
+    background: violet;
+    display: flex;
+}
+
+.link_title {
+    width: 70px;
     font-family: 'comic', cursive;
-    font-size: 14px;
-    display: inline-block;
-    width: 80px;
-    background: #ffa500;
+    font-size: 12px;
+    margin: 0 0 0 35px;
+    background: #ffffff;
 }
 
-.block4 {
-    display: inline-block;
-    width: 445px;
-    background: #ffa500;
+.link_back {
+    width: 35px;
+    font-family: 'comic', cursive;
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    background: #ffffff;
 }
 
+.button_student1 {
+    width: 340px;
+    font-family: 'comic', cursive;
+    font-size: 13px;
+    background: #cdcdcd;
+    padding: 2px;
+    margin: 0 0 10px 65px;
+}
 
-/*a {*/
-/*    color: #0000ff;*/
-/*}*/
+.button_student2 {
+    width: 220px;
+    font-family: 'comic', cursive;
+    font-size: 13px;
+    background: #cdcdcd;
+    padding: 2px;
+    margin: 0 395px 10px 20px;
+}
 
-/*a:hover {*/
-/*    color: #d34343;*/
-/*}*/
+.button_student3 {
+    width: 340px;
+    font-family: 'comic', cursive;
+    font-size: 13px;
+    background: #cdcdcd;
+    padding: 2px;
+    margin: 0 0 10px 225px;
+}
 
-/*.block_button1 {*/
-/*    display: inline-block;*/
-/*    background: #d34343;*/
-/*    padding: 80px 0px 20px 0px;*/
-/*}*/
-
-/*.block_button2 {*/
-/*    display: inline-block;*/
-/*    background: #d34343;*/
-/*    padding: 0px 0px 300px 0px;*/
-/*    margin-left: 50px;*/
-/*}*/
-
-/*.button1 {*/
-/*    font-family: 'comic', cursive;*/
-/*    width: 340px;*/
-/*    font-size: 13px;*/
-/*    background: #cdcdcd;*/
-
-/*}*/
-
-/*.button2 {*/
-/*    font-family: Comic Sans MS, cursive;*/
-/*    width: 220px;*/
-/*    font-size: 13px;*/
-/*    background: #cdcdcd;*/
+/*/ исправвить везде margin*/

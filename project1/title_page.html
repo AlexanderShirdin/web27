@@ -11,24 +11,23 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-<header class="head">
-        <div class="logout"></div>
-        <div class="title3">Система управления студентами и их успеваемостью</div>
-        <div class="logout"><a href="./index.html">Logout</a></div>
-</header>
-<main>
-    <section>
-        <form>
-            <div class="head">
-                <div class="bl1"><a href="./index.html">Студенты</a></div>
-                <div class="bl2"><a href="./index.html">Дисциплины</a></div>
-                <div class="bl3"><a href="./index.html">Семестры</a></div>
-            </div>
-        </form>
-    </section>
-</main>
-<fotter>
-    <div>2022 &copy;</div>
-</fotter>
+<div id="container">
+    <header>
+        <nav class="head">
+            <h1 class="title">Система управления студентами и их успеваемостью</h1>
+            <a href="./index.html">Logout</a>
+        </nav>
+    </header>
+    <main id="content">
+        <section class="menu_title">
+            <a href="./students_list.html" class="push">Студенты</a>
+            <a href="./index.html">Дисциплины</a>
+            <a href="./index.html" class="push2">Семестры</a>
+        </section>
+    </main>
+    <fotter>
+        <div>2022 &copy;</div>
+    </fotter>
+</div>
 </body>
 </html>
