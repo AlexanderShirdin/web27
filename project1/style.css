@@ -50,17 +50,20 @@ header nav a {
 
 #content {
     width: 1200px;
-    height: 80vh;
-    padding-top: 60px;
-    background: darkslategrey;
+    padding-top: 20px;
 }
 
-.form-log {
+footer div{
+    margin-top: 10vh;
+}
+
+.form_log {
     width: 250px;
     border: 1.5px solid #959595;
+    margin-top: 40px;
 }
 
-.title_log {
+.log_title {
     height: 40px;
     font-size: 18px;
     font-weight: normal;
@@ -93,13 +96,22 @@ header nav a {
     font-family: 'comic', cursive;
     font-size: 13px;
     background: #cdcdcd;
+    border: 1.5px solid #000;
     padding: 2px 7px;
     margin-bottom: 20px;
+    outline: 0;
+}
+
+.button_enter:active, .button_student1:active,
+.button_student2:active, .button_student3:active,
+.button_md_cr:active {
+    background: #ffffff;
 }
 
 .menu_title {
     width: 750px;
     display: flex;
+    margin-top: 40px;
 }
 
 .menu_title a {
@@ -118,8 +130,9 @@ header nav a {
 }
 
 .menu_student {
-    width: 1200px;
-    background: violet;
+    width: 815px;
+    padding-bottom: 20px;
+    margin: 0;
     display: flex;
 }
 
@@ -127,16 +140,14 @@ header nav a {
     width: 70px;
     font-family: 'comic', cursive;
     font-size: 12px;
-    margin: 0 0 0 35px;
-    background: #ffffff;
+    margin-left: 35px;
 }
 
 .link_back {
     width: 35px;
     font-family: 'comic', cursive;
     font-size: 12px;
-    margin: 0 0 0 20px;
-    background: #ffffff;
+    margin-left: 20px;
 }
 
 .button_student1 {
@@ -144,8 +155,10 @@ header nav a {
     font-family: 'comic', cursive;
     font-size: 13px;
     background: #cdcdcd;
+    border: 1.5px solid #000;
     padding: 2px;
-    margin: 0 0 10px 65px;
+    margin-left: 65px;
+    outline: 0;
 }
 
 .button_student2 {
@@ -153,8 +166,10 @@ header nav a {
     font-family: 'comic', cursive;
     font-size: 13px;
     background: #cdcdcd;
+    border: 1.5px solid #000;
     padding: 2px;
-    margin: 0 395px 10px 20px;
+    margin-left: 30px;
+    outline: 0;
 }
 
 .button_student3 {
@@ -162,8 +177,107 @@ header nav a {
     font-family: 'comic', cursive;
     font-size: 13px;
     background: #cdcdcd;
+    border: 1.5px solid #000;
     padding: 2px;
-    margin: 0 0 10px 225px;
+    margin-left: 225px;
+    outline: 0;
 }
 
-/*/ исправвить везде margin*/
+.push_left {
+    margin-left: 225px;
+}
+
+.student_title {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    padding: 6px 2px;
+}
+
+.list_student {
+    width: 750px;
+    background: #959595;
+    text-align: left;
+    border-spacing: 1.5px;
+}
+
+.list_student tr th {
+    font-size: 12px;
+    background: #cdcdcd;
+}
+
+td, th {
+    background: #eeeeee;
+    font-size: 12px;
+    padding: 25px 5px;
+}
+
+.check {
+    margin: 0 auto;
+    display: flex;
+}
+
+.ls_col1 {
+    width: 72px;
+}
+
+.ls_col2, .ls_col3 {
+    width: 230px;
+}
+
+.ls_col4, .ls_col5 {
+    width: 105px;
+}
+
+.menu_md_cr_student {
+    width: 830px;
+    padding-bottom: 20px;
+    margin: 0;
+    display: flex;
+}
+
+.md_cr_student_title {
+    width: 605px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    padding: 6px 0;
+    margin-left: 65px;
+}
+
+.form_md_cr_student {
+    width: 285px;
+    font-size: 12px;
+    margin-left: 225px;
+}
+
+.line2 {
+    width: 285px;
+    margin: 20px 0;
+    text-align: right;
+    display: flex;
+}
+
+.line2 div {
+    width: 110px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+.input_text2 {
+    font-family: 'comic', cursive;
+    width: 170px;
+    border: 1.5px solid #959595;
+    outline: 0;
+}
+
+.button_md_cr {
+    font-family: 'comic', cursive;
+    font-size: 13px;
+    background: #cdcdcd;
+    border: 1.5px solid #000;
+    padding: 2px 20px;
+    margin-left: 115px;
+    display: flex;
+    outline: 0;
+}
