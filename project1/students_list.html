@@ -15,99 +15,49 @@
     <header>
         <nav class="head">
             <h1 class="title">Система управления студентами и их успеваемостью</h1>
-            <a href="./index.html">Logout</a>
+            <div><a href="./index.html">Logout</a></div>
         </nav>
     </header>
-    <main id="content">
-        <section>
-            <div class="menu_student">
-                <a href="./title_page.html" class="link_title">На главную</a>
-                <a href="javascript:history.back()" class="link_back">Назад</a>
-                <input class="button_student1" type="submit" value="Просмотреть успеваемость выбранных студентов">
-                <input class="button_student2" type="submit" value="Создать студента…">
+    <main>
+        <section class="students_list">
+            <div class="side_menu">
+                <div><a href="./title_page.html">На главную</a></div>
+                <div><a href="javascript:history.back()">Назад</a></div>
             </div>
-            <div class="menu_student">
-                <form method="LINK" action="./students_modifying.html">
-                    <input class="button_student3" type="submit" value="Модифицировать выбранного студента…">
-                </form>
-                <input class="button_student2" type="submit" value="Удалить выбранных студентов">
+            <div class="main">
+                <div class="button_group1">
+                    <form method="LINK" action="./index.html">
+                        <input class="button_student1" type="submit"
+                               value="Просмотреть успеваемость выбранных студентов">
+                    </form>
+                    <form method="LINK" action="./student_creating.html">
+                        <input class="button_student2" type="submit" value="Создать студента…">
+                    </form>
+                    <form method="LINK" action="./student_modifying.html">
+                        <input class="button_student1" type="submit" value="Модифицировать выбранного студента…">
+                    </form>
+                    <form method="LINK" action="./index.html">
+                        <input class="button_student2" type="submit" value="Удалить выбранных студентов">
+                    </form>
+                </div>
+                <h2>Список студентов</h2>
+                <table class="list">
+                    <tr>
+                        <th></th>
+                        <th class="l_col1">Фамилия</th>
+                        <th class="l_col2">Имя</th>
+                        <th class="l_col3">Группа</th>
+                        <th class="l_col4">Дата поступления</th>
+                    </tr>
+                    <tr>
+                        <td class="l_col0"><label><input type="checkbox" name=""></label></td>
+                        <td>Сидоров</td>
+                        <td>Сидор</td>
+                        <td>КТ-21</td>
+                        <td>1/09/2011</td>
+                    </tr>
+                </table>
             </div>
-            <div class="push_left">
-                <h2 class="student_title">Список студентов</h2>
-            </div>
-            <table class="list_student">
-                <tr>
-                    <th></th>
-                    <th class="ls_col2">Фамилия</th>
-                    <th class="ls_col3">Имя</th>
-                    <th class="ls_col4">Группа</th>
-                    <th class="ls_col5">Дата поступления</th>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="" class="check"></td>
-                    <td>Сидоров</td>
-                    <td>Сидор</td>
-                    <td>КТ-21</td>
-                    <td>1/09/2011</td>
-                </tr>
-
-            </table>
         </section>
     </main>
     <footer>
