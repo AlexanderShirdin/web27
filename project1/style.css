@@ -59,8 +59,7 @@ h1 {
     text-align: center;
     padding: 7px;
     background: #cdcdcd;
-    border: 1.5px none #959595;
-    border-bottom-style: solid;
+    border-bottom: 1.5px solid #959595;
 }
 
 .line {
@@ -133,8 +132,8 @@ a:hover {
 }
 
 .students_list {
-    width: 100%;
     display: flex;
+    margin-right: 225px;
 }
 
 .side_menu {
@@ -192,21 +191,21 @@ h2 {
 .list {
     font-size: 12px;
     text-align: left;
-    border-spacing: 1.5px;
-    background: #959595;
+    border-collapse: collapse;
 }
 
 .list tr th {
     background: #cdcdcd;
 }
 
-.list td, th {
+.list td, .list th {
     height: 70px;
     background: #eeeeee;
     padding-left: 5px;
+    border: 1.5px solid #959595;
 }
 
-.l_col0 {
+.l_col0 label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,6 +252,6 @@ h2 {
     background: #cdcdcd;
     border: 1.5px solid #000;
     padding: 2px;
-    margin: 20px 0  0 115px;
+    margin: 20px 0 0 115px;
     outline: 0;
 }

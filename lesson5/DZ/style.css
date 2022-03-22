@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 5px 30px 5px 10px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 5px 30px;
+}
+
+caption{
+    font-family: 'AmaticSC-Bold', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+
+thead {
+    border: 2px solid black;
+    text-align: center;
+    background: blue;
+    font-family: 'AmaticSC-Bold', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+ol li{
+    font-family: 'AmaticSC-Bold', cursive;
+    font-size: 35px;
+    color: blue;
+}
+
+ul li, tbody {
+    background: white;
+    font-family: 'AmaticSC-Regular', cursive;
+    font-size: 30px;
+    list-style: "- ";
+    font-weight: bold;
+    color: red;
+}
+
+ol{
+    margin-left: 40%;
+}
+
+tfoot {
+    border: 2px solid black;
+    background: grey;
+}
+
+
+
+
