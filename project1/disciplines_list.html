@@ -24,37 +24,36 @@
                 <div><a href="./title_page.html">На главную</a></div>
             </div>
             <div class="main">
-                <div class="section_discipline">
-                <div class="r">
-                    <table class="list">
-                        <caption class="title_discipline">Список дисциплин</caption>
-                        <tr>
-                            <th></th>
-                            <th class="lm_col1">Наименование дисциплины</th>
-                        </tr>
-                        <tr>
-                            <td class="ld_col0"><label><input type="checkbox" name=""></label></td>
-                            <td class="ld_col1">Высшая математика</td>
-                        </tr>
-                    </table>
-                </div>
-
+                <h2 class="discipline_title">Список дисциплин</h2>
+                <div class="discipline_section">
+                    <div class="discipline">
+                        <table class="list">
+                            <tr>
+                                <th class="ld_col0"></th>
+                                <th class="ld_col1">Наименование дисциплины</th>
+                            </tr>
+                            <tr>
+                                <td class="ld_col0"><label><input type="checkbox" name=""></label></td>
+                                <td class="ld_col1">Высшая математика</td>
+                            </tr>
+                        </table>
+                    </div>
                     <div class="root_discipline">
                         <div class="button_group2">
-                            <form action="./student_progress.html">
-                                <input class="button_student1" type="submit"
-                                       value="Создать дисциплину…">
+                            <form action="./discipline_creating.html">
+                                <input class="button_discipline" type="submit" value="Создать дисциплину…">
                             </form>
-                            <form action="./student_creating.html">
-                                <input class="button_student1" type="submit" value="Модифицировать выбранную дисциплину…">
+                            <form action="./discipline_modifying.html">
+                                <input class="button_discipline" type="submit"
+                                       value="Модифицировать выбранную дисциплину…">
                             </form>
-                            <form action="./student_modifying.html">
-                                <input class="button_student1" type="submit" value="Удалить выбранную дисциплину…">
+                            <form action="">
+                                <input class="button_discipline" type="submit" value="Удалить выбранную дисциплину…">
                             </form>
                         </div>
                     </div>
-
                 </div>
+            </div>
         </section>
     </main>
     <footer>

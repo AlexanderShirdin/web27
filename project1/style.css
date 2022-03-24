@@ -26,6 +26,7 @@ main {
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    background: darkslategrey;
 }
 
 footer {
@@ -51,10 +52,12 @@ h1 {
     border: 1.5px solid #959595;
     margin-top: 40px;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 .log_title {
+    width: 100%;
     font-size: 18px;
     text-align: center;
     padding: 7px;
@@ -65,7 +68,6 @@ h1 {
 .line {
     width: 200px;
     margin-bottom: 20px;
-    align-self: center;
     display: flex;
     justify-content: space-between;
 }
@@ -88,13 +90,13 @@ h1 {
     background: #cdcdcd;
     border: 1.5px solid #000;
     margin-bottom: 20px;
-    align-self: center;
     outline: 0;
 }
 
 .button_enter:active, .button_student1:active,
-.button_student2:active, .button_student:active,
-.button_term:active {
+.button_student2:active, .button_cm_student:active,
+.button_term:active, .button_discipline:active,
+.button_cm_discipline:active {
     background: #ffffff;
 }
 
@@ -135,26 +137,26 @@ a:hover {
 .content {
     display: flex;
     margin-right: 225px;
+    background: yellow;
 }
 
 .side_menu {
     width: 225px;
     display: flex;
-    background: #002cbe;
+    background: red;
 }
 
 .side_menu a {
     font-family: 'comic', cursive;
     font-size: 12px;
     margin-left: 25px;
-    background: yellow;
 }
 
 .main {
     width: 750px;
     display: flex;
     flex-direction: column;
-    background: #3fbe00;
+    background: blue;
 }
 
 .button_group1 {
@@ -190,13 +192,13 @@ h2 {
     font-weight: normal;
     padding-left: 2px;
     margin-bottom: 20px;
-    background: khaki;
 }
 
 .list {
     width: 100%;
     font-size: 12px;
     text-align: left;
+    border: 1.5px solid #959595;
     border-collapse: collapse;
 }
 
@@ -219,7 +221,8 @@ caption {
     border: 1.5px solid #959595;
 }
 
-.l_col0 label {
+.l_col0 label, .ld_col0 label {
+    padding-right: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +236,7 @@ caption {
     width: 15%;
 }
 
-.form_student {
+.form_cm {
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -253,19 +256,19 @@ caption {
     align-items: flex-end;
 }
 
-.line2 input {
+.line2 input, .line3 input {
     width: 170px;
     border: 1.5px solid #000;
     outline: 0;
 }
 
-.button_student {
+.button_cm_student {
     width: 110px;
     height: 25px;
     font-size: 13px;
     background: #cdcdcd;
     border: 1.5px solid #000;
-    margin: 20px 0 0 115px;
+    margin: 25px 0 0 115px;
     outline: 0;
 }
 
@@ -344,29 +347,85 @@ h3 {
     margin-left: 5px;
 }
 
-.section_discipline {
+.discipline_title {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.discipline_section {
     width: 750px;
     padding: 0 15px;
     display: flex;
     flex-direction: row;
-    background: coral;
 }
 
-.r{
+.discipline {
     width: 360px;
-    background: red;
-}
-.title_discipline {
-    font-size: 16px;
-    font-weight: normal;
-    text-align: left;
-    padding-left: 2px;
-    margin-bottom: 20px;
 }
 
-.root_discipline{
+.ld_col0, .ld_col1 {
+    height: 100px;
+    background: #eeeeee;
+    padding-left: 5px;
+    border: 1.5px solid #959595;
+}
+
+.ld_col0 {
+    width: 10%;
+}
+
+.ld_col1 {
+    width: 90%;
+}
+
+.root_discipline {
     width: 360px;
+}
+
+.button_group2 {
+    height: 110px;
+    margin-left: 55px;
     display: flex;
     flex-direction: column;
-    background: darkseagreen;
+    justify-content: space-between;
+}
+
+.button_discipline {
+    width: 230px;
+    height: 25px;
+    font-size: 10px;
+    padding-top: 2px;
+    background: #cdcdcd;
+    border: 1.5px solid #000;
+    outline: 0;
+}
+
+.line3 {
+    width: 270px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line3 div {
+    width: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.line3 input {
+    width: 200px;
+    border: 1.5px solid #000;
+    outline: 0;
+}
+
+.button_cm_discipline {
+    width: 110px;
+    height: 25px;
+    font-size: 13px;
+    background: #cdcdcd;
+    border: 1.5px solid #000;
+    margin: 20px 0 0 70px;
+    outline: 0;
 }
