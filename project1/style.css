@@ -84,6 +84,7 @@ h1 {
 
 .line input {
     width: 130px;
+    padding-left: 3px;
     border: 1.5px solid #959595;
     outline: 0;
 }
@@ -101,7 +102,8 @@ h1 {
 .button_enter:active, .button_student1:active,
 .button_student2:active, .button_cm_student:active,
 .button_term:active, .button_discipline:active,
-.button_cm_discipline:active, .button_terms:active {
+.button_cm_discipline:active, .button_terms:active,
+.button_cm_term:active {
     background: #ffffff;
 }
 
@@ -262,8 +264,9 @@ h2 {
     align-items: flex-end;
 }
 
-.line2 input, .line3 input {
+.line2 input {
     width: 170px;
+    padding-left: 3px;
     border: 1.5px solid #000;
     outline: 0;
 }
@@ -330,16 +333,16 @@ h2 {
 }
 
 select {
-    width: 140px;
-    padding-top: 1px;
+    width: 160px;
     height: 25px;
+    padding-top: 1px;
     font-size: 12px;
     border: 1.5px solid #000;
     outline: 0;
 }
 
 .button_term {
-    width: 110px;
+    width: 90px;
     height: 25px;
     font-size: 13px;
     background: #cdcdcd;
@@ -419,20 +422,19 @@ h3 {
 }
 
 .line3 div {
-    width: 55px;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
 .line3 input {
     width: 200px;
+    padding-left: 3px;
     border: 1.5px solid #000;
     outline: 0;
 }
 
 .button_cm_discipline {
-    width: 110px;
+    width: 90px;
     height: 25px;
     font-size: 13px;
     background: #cdcdcd;
@@ -458,6 +460,15 @@ h3 {
     margin-right: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.line4 div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.line4 select {
+    width: 190px;
 }
 
 .term_duration {
@@ -512,4 +523,46 @@ h3 {
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
+}
+
+.line5 {
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line5 div {
+    padding-top: 4px;
+}
+
+.line5 input {
+    width: 190px;
+    padding-left: 3px;
+    border: 1.5px solid #000;
+    outline: 0;
+}
+
+.line5 select {
+    width: 190px;
+    height: 140px;
+    padding-left: 3px;
+    border-radius: 0;
+}
+
+.button_cm_term {
+    width: 90px;
+    height: 25px;
+    font-size: 13px;
+    background: #cdcdcd;
+    border: 1.5px solid #000;
+    margin: 25px 0 0 160px;
+    outline: 0;
+}
+
+h4 {
+    font-family: 'ariali', cursive;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #ff0000;
 }

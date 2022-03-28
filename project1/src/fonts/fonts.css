@@ -12,3 +12,8 @@
     font-family: "micross";
     src: url("./Microsoft_Sans_Serif/micross.ttf") format("woff");
 }
+
+@font-face {
+    font-family: "ariali";
+    src: url("./Arial/ariali.ttf") format("woff");
+}
