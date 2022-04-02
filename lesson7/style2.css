@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #6babab;
+}
+
+.page_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #838383;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.main_menu a {
+    color: white;
+}
+
+.main_container {
+    display: flex;
+    font-size: 26px;
+}
+

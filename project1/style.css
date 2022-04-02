@@ -92,7 +92,7 @@ h1 {
 .button_enter {
     width: 60px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     margin-bottom: 20px;
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .button_group1 {
-    width: 590px;
+    width: 530px;
     height: 70px;
     margin-bottom: 30px;
     display: flex;
@@ -174,18 +174,18 @@ a:hover {
 }
 
 .button_student1 {
-    width: 340px;
+    width: 300px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
 }
 
 .button_student2 {
-    width: 220px;
+    width: 200px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
@@ -274,7 +274,7 @@ h2 {
 .button_cm_student {
     width: 110px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     margin: 25px 0 0 115px;
@@ -335,7 +335,6 @@ h2 {
 select {
     width: 160px;
     height: 25px;
-    padding-top: 1px;
     font-size: 12px;
     border: 1.5px solid #000;
     outline: 0;
@@ -344,7 +343,7 @@ select {
 .button_term {
     width: 90px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
@@ -405,10 +404,9 @@ h3 {
 }
 
 .button_discipline {
-    width: 230px;
+    width: 270px;
     height: 25px;
-    font-size: 10px;
-    padding-top: 2px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
@@ -436,7 +434,7 @@ h3 {
 .button_cm_discipline {
     width: 90px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     margin: 20px 0 0 70px;
@@ -516,10 +514,9 @@ h3 {
 }
 
 .button_terms {
-    width: 190px;
+    width: 230px;
     height: 25px;
-    font-size: 10px;
-    padding-top: 2px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     outline: 0;
@@ -553,7 +550,7 @@ h3 {
 .button_cm_term {
     width: 90px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     background: #cdcdcd;
     border: 1.5px solid #000;
     margin: 25px 0 0 160px;
