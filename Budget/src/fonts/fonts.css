@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "subway";
+    src: url("./Subway_Ticker/SubwayTicker.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "subwaygrid";
+    src: url("./Subway_Ticker/SubwayTickerGrid.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "cygnito";
+    src: url("./Cygnito_Mono/CygnitoMono.otf") format("woff");
+}
