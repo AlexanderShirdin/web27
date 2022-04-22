@@ -12,3 +12,8 @@
     font-family: "cygnito";
     src: url("./Cygnito_Mono/CygnitoMono.otf") format("woff");
 }
+
+@font-face {
+    font-family: "moscow";
+    src: url("./Moscow_Sans/Moscow_Sans.ttf") format("woff");
+}
